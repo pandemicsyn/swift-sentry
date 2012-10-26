@@ -13,7 +13,7 @@ Using swift-sentry via Swift's custom log handler hook you can capture/track exc
 
 Sentry support is enabled using the custom log handlers hook. To enable it for a service
 (proxy-server, account-server, container-server, object-server, etc) simple add
-the following lines to the [DEFAULT] (or a subsection) section of the config:
+the following lines to the \[DEFAULT\] (or a subsection) section of the config:
 
     log_custom_handlers = swift_sentry.sentry_logger
     # The sentry DSN to use - be sure to use an eventlet transport
